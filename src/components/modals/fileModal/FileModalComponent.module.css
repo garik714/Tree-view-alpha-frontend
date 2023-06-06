@@ -1,0 +1,110 @@
+.modalComponent {
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.modalComponent:focus {
+    outline: none;
+}
+
+.fieldsToFill {
+    margin-bottom: 30px;
+    padding: 10px 0;
+}
+
+.fieldsToFill div {
+    width: 100%;
+}
+
+.buttonsContent {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buttonsContent button {
+    width: 106px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+    color: #000000;
+}
+
+.closeBtn {
+    background: #b4b4b4;
+    margin-right: 24px;
+}
+
+.saveBtn {
+    background: #30c4ff;
+}
+
+.fileWrapper {
+    margin-bottom: 40px;
+}
+
+.addFileContainer {
+    display: flex;
+    align-items: center;
+}
+
+.selectMethodContainer {
+    height: 32px;
+    margin-right: 70px;
+}
+
+.selectMethodContainer select {
+    font-size: 16px;
+    line-height: 17px;
+    color: #818181;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background: #FFF;
+    outline: none;
+}
+
+.fileContainer {
+    display: flex;
+    margin: 0 10px;
+}
+
+.fileContainer img {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.iconWrapper img {
+    width: 15px;
+    height: 15px;
+}
+
+.fileUploaderWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.fileName {
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fileUploaderContainer {
+    margin-top: 10px;
+}
+
+.errorMessage {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}

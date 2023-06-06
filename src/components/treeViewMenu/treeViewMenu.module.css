@@ -1,0 +1,77 @@
+ul {
+    list-style: none;
+}
+
+li::marker {
+    display: none;
+}
+
+.rootContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.createItemContainer {
+    display: flex;
+}
+
+.createFolderContainer, .createFileContainer {
+    display: flex;
+    padding: 10px;
+}
+
+.createFolderContainer button, .createFileContainer button {
+    width: 140px;
+    background-color: #e7e7e7;
+    color: black;
+    border: none;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.treeItem {
+    display: flex;
+    position: relative;
+    padding: 5px 10px 5px 15px;
+}
+
+.nodeIcon {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.menu {
+    width: 200px;
+    /*position: absolute;*/
+    background: #FFF;
+    z-index: 9;
+}
+
+.toggleMenuContainer {
+    display: flex;
+    align-items: center;
+}
+
+.menuTriangle {
+    width: 12px;
+    height: 14px;
+    margin-right: 10px;
+}
+
+.rightTriangle {
+    transform: rotate(270deg);
+}
+
+.createModalContainer {
+    width: 100vw;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+

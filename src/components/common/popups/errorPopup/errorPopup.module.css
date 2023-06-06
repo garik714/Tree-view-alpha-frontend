@@ -1,0 +1,10 @@
+.error {
+    border: 1.2px solid red;
+    background: rgba(169,198,217,0.29457423);
+    color: red;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Raleway, sans-serif;
+    display: flex;
+    align-items: center;
+}

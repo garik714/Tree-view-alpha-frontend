@@ -1,0 +1,18 @@
+.cvUploader {
+    display: flex;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.customFileUpload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 17px;
+    color: #818181;
+}
+

@@ -1,0 +1,9 @@
+.passwordEye {
+    color: rgba(131,153,167,0.9);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+a {
+    color: #3e76cf;
+}

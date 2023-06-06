@@ -1,0 +1,34 @@
+.contentBody {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.rootContentItem {
+    width: 100px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.rootContentItem img {
+    width: 100%;
+}
+
+.createFolderContainer {
+    display: flex;
+    padding: 10px;
+}
+
+.createFolderContainer button {
+    width: 160px;
+    background-color: #e7e7e7;
+    color: black;
+    border: none;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
